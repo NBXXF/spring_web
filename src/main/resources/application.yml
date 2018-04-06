@@ -1,0 +1,19 @@
+age: 18
+name: xyw
+desc: "name ${name}  age ${age}"
+user:
+   age: 20
+   userName: asange
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbuser?seUnicode=true&characterEncoding=UTF8
+    username: root
+    password: 123
+  jpa:
+    hibernate:
+       ddl-auto: create
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

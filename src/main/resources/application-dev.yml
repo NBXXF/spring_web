@@ -1,0 +1,6 @@
+age: 18
+name: xyw
+desc: "name ${name}  age ${age}"
+user:
+   age: 20
+   userName: asange_dev
